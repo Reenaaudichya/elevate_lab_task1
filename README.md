@@ -25,10 +25,10 @@ To discover active devices and open ports on a local network and analyze the res
 - Confirmed the use of UDP protocol for DNS traffic (Port 53).
 
 ## Evidence
-- **Scan Results:** See `nmap_scan_report.txt` for full command output.
+- **Scan Results:** See `network_report.txt` for full command output.
 - **Screenshots:**
-  - `terminal_scan.png`: Nmap discovery and fingerprinting results.
-  - `wireshark_analysis.png`: Packet capture showing DNS and DHCP traffic.
+  - `screenshot.png`: Nmap discovery and fingerprinting results.
+  - `screenshot.png`: Packet capture showing DNS and DHCP traffic.
 
 ## Conclusion
 This task demonstrated how network reconnaissance (Nmap) identifies active services, while packet analysis (Wireshark) provides visibility into the actual data exchange between devices. Understanding these patterns is essential for identifying potential security vulnerabilities and unauthorized network activity.
