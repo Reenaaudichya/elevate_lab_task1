@@ -1,0 +1,12 @@
+# Nmap 7.95 scan initiated Mon Jun 29 16:12:14 2026 as: /usr/lib/nmap/nmap -sV -O -oN network_report.txt 10.91.167.0/24
+Nmap scan report for 10.91.167.194
+Host is up (0.00013s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.4.65 ((Debian))
+Device type: general purpose
+Running: Linux 2.6.X|5.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6.32 cpe:/o:linux:linux_kernel:5 cpe:/o:linux:linux_kernel:6
+OS details: Linux 2.6.32, Linux 5.0 - 6.2
+Network Distance: 0 hops
+
